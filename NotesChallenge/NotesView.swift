@@ -34,7 +34,6 @@ struct NotesView: View {
                             newNoteContent = ""
                         }
                     }
-
                     passwordInput = ""
                     if viewModel.isPasswordSet() {
                         // Ask to verify password
